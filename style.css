@@ -1,0 +1,2835 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+
+/* Style */
+
+
+/* Admin page */
+
+.admintitle {
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.admintitle1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 90px;
+
+	text-align: center;
+
+	color: #112D4E;
+}
+
+.admintitleline {
+	border: 4px solid #FCE38A;
+	margin: auto;
+	width: 15%;
+	height: 0px;
+}
+
+.greeting h2 {
+	text-align: center;
+}
+
+.divadmin {
+	display: flex;
+	margin: 60px auto;
+	width: 80%; 
+}
+
+.divadmin ul {
+	background: #272727;
+}
+
+.divadmin a {
+	color: #FFFFFF;
+}
+
+.dropdown button {
+	width: 200px;
+	height: 200px;
+	font-size: 20px;
+}
+
+.botomButton {
+	display: flex;
+	width: 250px;
+	margin: auto;
+	margin-top: 130px;
+	align-content: space-between;
+}
+
+.imgIndexAdmin {
+	width: 70px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+
+/* Data pengurus PKS page */
+
+.divform {
+	width: 80%;
+	border: 1px solid #000000;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 70px auto;
+}
+
+.btn-primary {
+	margin: auto;
+}
+
+
+/* Login page */
+
+.container-loginbox {
+	display: flex;
+	width: 100%;
+	height: 600px;
+}
+
+.loginbox {
+	display: flex;
+	width: 700px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border: 3px solid #000000;
+	padding: 20px;
+	margin: auto;
+	top: 50%;
+	box-sizing: border-box;
+	background-color: #0F4C75;
+}
+
+.loginbox img {
+	margin-bottom: 20px;
+	width: max-content;
+}
+
+.loginbox form div {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.loginbox form div label {
+	font-family: Arial;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.loginbox form div button {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+
+/* Landing Page */
+
+.navbar a {
+	font-weight: bold;
+}
+
+.navbar-brand {
+	margin-left: 30px;
+}
+
+.nav-item {
+	margin-right: 10px;
+}
+
+.nav-pills {
+	color: #272727;
+}
+
+.header {
+	display: flex;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	padding: 8px 7%;
+	justify-content: space-between;
+	z-index: 10;
+	box-sizing: border-box;
+
+	background: #272727;
+}
+
+.headername ul {
+	background: #272727;
+}
+
+.dropdown-menu {
+	background: #272727;
+}
+
+.headername {
+	width: 650px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	align-items: center;
+}
+
+.headername div a {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	margin-right: 50px;
+	text-align: center;
+	align-items: center;
+
+	background-color: #272727;
+	color: #FFFFFF;
+}
+
+.headername div a.hometxt {
+	color: #868484;
+}
+
+.homeimage {
+	margin: 0;
+}
+
+.homeimage img {
+	margin-top: 25px;
+	width: 100%;
+	border-bottom: 3px solid #272727;
+}
+
+.judulprestasi {
+	margin-top: 50px;
+}
+
+.judulprestasi1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 90px;
+
+	text-align: center;
+
+	color: #112D4E;
+}
+
+.judulprestasiimg {
+	border: 4px solid #FCE38A;
+	margin: auto;
+	width: 218.01px;
+	height: 0px;
+}
+
+.judulprestasi2 {
+	margin-top: 20px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #364F6B;
+}
+
+.possdiv {
+	display: flex;
+	box-sizing: border-box;
+	margin: 50px auto;
+	width: 82%;
+	height: 352px;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	overflow: hidden;
+	background-color: #017299;
+	border-radius: 10px;
+}
+
+.possdiv a {
+	text-decoration: none;
+}
+
+.PKSpp {
+	padding: 10px;
+	width: 230px;
+	height: 220px;
+	margin-right: 145px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transition: .5s ease;
+
+	background: #D9D9D9;
+	background-image: url(photo/logo-trophy.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80px;
+	box-shadow: 10px 13px 4px rgba(0, 0, 0, 0.25);
+}
+
+.PKSpp:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.KKRpp {
+	padding: 10px;
+	width: 230px;
+	height: 220px;
+	margin-right: 145px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transition: .5s ease;
+
+	background: #D9D9D9;
+	background-image: url(photo/logo-trophy.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80px;
+	box-shadow: 10px 13px 4px rgba(0, 0, 0, 0.25);
+}
+
+.KKRpp:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.PRApp {
+	padding: 10px;
+	width: 230px;
+	height: 220px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transition: .5s ease;
+
+	background: #D9D9D9;
+	background-image: url(photo/logo-trophy.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80px;
+	box-shadow: 10px 13px 4px rgba(0, 0, 0, 0.25);
+}
+
+.PRApp:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.pkspres {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 275;
+	font-size: 20px;
+	margin-bottom: 70px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.pkspresj {
+	margin-top: 10px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.pkspresdesk {
+	margin-top: 20px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 15px;
+
+	color: #000000;
+}
+
+.kkrpres {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 275;
+	font-size: 20px;
+	margin-bottom: 70px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.kkrpresj {
+	margin-top: 10px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.kkrpresdesk {
+	margin-top: 20px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 15px;
+
+	color: #000000;
+}
+
+.pramukapres {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 275;
+	font-size: 20px;
+	margin-bottom: 70px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.pramukapresj {
+	margin-top: 10px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.pramukapresdesk {
+	margin-top: 20px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 15px;
+
+	color: #000000;
+}
+
+.backprofile {
+	display: flex;
+	position: relative;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	margin-top: 100px;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	overflow: hidden;
+
+	background: #648DBB;
+}
+
+.judulprofile {
+	width: 100%;
+}
+
+.judulprofile1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 90px;
+	padding-top: 50px;
+
+	text-align: center;
+
+	color: #112D4E;
+}
+
+.judulprofileimg {
+	border: 4px solid #FCE38A;
+	margin: auto;
+	width: 218.01px;
+	height: 0px;
+}
+
+.judulprofile2 {
+	margin-top: 20px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #364F6B;
+}
+
+.profilepp {
+	width: 1150px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 58px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.profilepp a {
+	text-decoration: none;
+	
+	color: #000000;
+}
+
+.PKSprofile {
+	padding-top: 400px;
+	width: 342px;
+	height: 474px;
+	display: inline-block;
+	margin-top: 46px;
+	margin-right: 47px;
+	box-sizing: border-box;
+	text-align: bottom center;
+	transition: .5s ease;
+
+	background: #D9D9D9;
+	background-image: url(photo/logo-pks.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 200px;
+	box-shadow: 15px 20px 4px rgba(0, 0, 0, 0.25);
+}
+
+.PKSprofile:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.KKRprofile {
+	padding-top: 400px;
+	width: 342px;
+	height: 474px;
+	display: inline-block;
+	margin-right: 47px;
+	box-sizing: border-box;
+	transition: .5s ease;
+
+	background: #D9D9D9;
+	background-image: url(photo/logo-kkr.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 230px;
+	box-shadow: 15px 20px 4px rgba(0, 0, 0, 0.25);
+}
+
+.KKRprofile:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.PRAprofile {
+	padding-top: 400px;
+	width: 342px;
+	height: 474px;
+	display: inline-block;
+	box-sizing: border-box;
+	transition: .5s ease;
+
+	background: #D9D9D9;
+	background-image: url(photo/logo-pramuka.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 230px;
+	box-shadow: 15px 20px 4px rgba(0, 0, 0, 0.25);
+}
+
+.PRAprofile:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.backgaleri {
+	width: 100%;
+	margin: 73px auto;
+}
+
+.judulgaleri1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 90px;
+	padding-top: 50px;
+
+	text-align: center;
+
+	color: #112D4E;
+}
+
+.judulgaleri a {
+	text-decoration: none;
+}
+
+.judulgaleriimg {
+	border: 4px solid #FCE38A;
+	margin: auto;
+	width: 218.01px;
+	height: 0px;
+}
+
+.judulgaleri2 {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #364F6B;
+}
+
+.carousel-inner img {
+	width: 100%;
+	max-height: fit-content;
+}
+
+.carousel-inner {
+	border: 3px solid #000000;
+}
+
+.footer {
+	margin-top: 100px;
+	width: 100%;
+	height: 374px;
+	padding-top: 79px;
+	padding-left: 126px;
+	padding-right: 126px;
+	box-sizing: border-box;
+	justify-content: space-between;
+
+	background: #272727;
+}
+
+.logo1 {
+	width: 255px;
+	height: 88px;
+}
+
+.line1 {
+	margin-top: 14px;
+	width: 255px;
+	height: 0px;
+	border: 0.4px solid #FFDA1F;
+}
+
+.pk {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	margin-top: 9px;
+
+	color: #FFFFFF;
+}
+
+.line2 {
+	margin-top: 9px;
+	width: 129px;
+	height: 0px;
+	border: 0.4px solid #FFDA1F;
+}
+
+.sosmedimg {
+	margin-top: 13px;
+}
+
+.fb, .yt, .ig{
+	margin-right: 15px;
+}
+
+.kontak {
+	display: inline-block;
+	width: 330px;
+	z-index: 9;
+	line-height: 10px;
+}
+
+.judulkontak {
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: left;
+
+	color: #FFFFFF;
+}
+
+.kontak p {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	color: #FFFFFF;
+}
+
+.footerbottom {
+	display: flex;
+	width: 100%;
+	height: 45px;
+	background: black;
+}
+
+.footerbottom p {
+	margin: auto;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 13px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.footerbottom a {
+	text-decoration: none;
+	color: #FFDA1F;
+}
+
+
+
+
+
+/* Profile PKS page */
+
+.headername div.profile1 {
+	color: #868484;
+}
+
+.profile1 ul {
+	background: #272727;
+}
+
+.profile1 ul li:first-child a {
+	color: #868484;
+}
+
+.pksimage img {
+	border: 3px solid #272727; 
+	width: 100%;
+	max-height: 600px;
+}
+
+.pppksj {
+	margin-top: 57px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	text-align: center;
+
+	color: #0F4C75;
+}
+
+.pppksjline {
+	width: 218.01px;
+	margin: auto;
+	height: 0px;
+	border: 3px solid #5C7CB9;
+}
+
+.dpks {
+	display: flex;
+	position: relative;
+	margin: 53px auto;
+	width: 90%;
+	overflow: hidden;
+}
+
+.quote1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.quote2 {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	transform: rotate(180deg);
+}
+
+.dpks1 {
+	margin: auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 1050px;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 38px;
+
+	color: #000000;
+}
+
+.backvmpksj {
+	width: 100%;
+	background-color: #E5DFDF;
+}
+
+.vmpks {
+	position: relative;
+	width: 80%;
+	height: 1030px;
+	margin: 100px auto;
+	padding-top: 20px;
+	overflow: hidden;
+
+	background-color: #E5DFDF;
+}
+
+.vmpksj {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+	text-align: center;
+
+	color: #0F4C75;
+}
+
+.vmpksline {
+	width: 218.01px;
+	height: 0px;
+	margin: auto;
+
+	border: 3px solid #5C7CB9;
+}
+
+.visipksimg {
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	margin-top: 53px;
+	width: 48%;
+	height: 300px;
+}
+
+.visipks {
+	display: flex;
+	position: absolute;
+	top: 200px;
+	left: 42%;
+	border: 3px solid #0F4C75;
+	width: 48%;
+	height: 300px;
+}
+
+.txtvisipks {
+	height: 150px;
+	width: 400px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 4%;
+}
+
+.txtvisipks h1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 46px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.txtvisipks p {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	
+	color: #000000;
+}
+
+.visipks img {
+	margin-top: 240px;
+	width: 12%;
+	height: 55px;
+}
+
+.misipksimg {
+	position: absolute;
+	top: 550px;
+	right: 0px;
+	margin-top: 53px;
+	width: 48%;
+	height: 300px;
+}
+
+.misipks {
+	display: flex;
+	position: absolute;
+	top: 660px;
+	right: 42%;
+	border: 3px solid #0F4C75;
+	width: 48%;
+	height: 300px;
+}
+
+.txtmisipks {
+	height: 150px;
+	width: 400px;
+	margin-left: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 15%;
+}
+
+.txtmisipks h1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 46px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.txtmisipks ul li {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 22px;
+
+	color: #000000;
+}
+
+.misipks img {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin-top: 240px;
+	width: 12%;
+	height: 55px;
+}
+
+.tntpks {
+	display: flex;
+	margin-top: 100px;
+	width: 100%; 
+	height: 280px;
+	justify-content: space-between;
+	padding-left: 100px;
+	padding-right: 100px;
+	justify-content: space-between;
+}
+
+.jtntpks {
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 150px;
+	text-align: center;
+	font-family: 'Alegreya';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	color: #0F4C75;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.linetntpks {
+	width: 0px;
+	height: 100%;
+	border: 3px solid #5C7CB9;
+}
+
+.ltntpks {
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 70%;
+	height: 100%;
+	overflow: auto;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 44px;
+
+	color: #000000;
+}
+
+.navbarine {
+	margin-top: 150px;
+	width: 100%px;
+	height: 50px;
+	padding-left: 40px;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 53px;
+
+	color: #FFFFFF;
+
+	background: #0F4C75;
+}
+
+.jkine {
+	width: 100%;
+	margin-top: 50px;
+	padding-left: 40px;
+
+	font-family: Arial;
+}
+
+.jkine h2 {
+	font-weight: bold;
+	text-decoration: underline #0F4C75;
+}
+
+.jkine p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 20px;
+}
+
+.eventine {
+	width: 100%;
+	margin-top: 100px;
+	padding-left: 40px;
+}
+
+.eventine h2 {
+	font-weight: bold;
+	text-decoration: underline #0F4C75;
+	margin-bottom: 40px;
+}
+
+.eventinebox {
+	width: 100%;
+	padding-right: 40px;
+}
+
+.textine {
+	height: 401px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 40px;
+	overflow: auto;
+}
+
+.textine h4 {
+	font-weight: bold;
+}
+
+.imgine img {
+	width: 390px;
+	height: 401px;
+	float: right;
+}
+
+.swiper-container {
+	background-color: #3F72AF;
+	width: 100%;
+	height: max-content;
+	display: flex;
+	margin-top: 100px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.gallery-swiper {
+	margin-top: 20px;
+	width: 100%;
+	height: 550px;
+	box-sizing: border-box;
+}
+
+.swiper-title {
+	width: max-content;
+	margin: 30px auto;
+	align-items: unset;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 50px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.swiper-slide {
+	border: 3px solid #0F4C75;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.swiper-title-line {
+	width: 218.01px;
+	height: 0px;
+	margin: auto;
+
+	border: 3px solid #FFFFFF;
+}
+
+.gallery-swiper-slide .gallery-swiper-img {
+	width: 300px;
+	margin: 30px auto;
+	border-radius: 200px;
+}
+
+.gallery-swiper-slide h4, h5, h6 {
+	width: 450px;
+	margin: auto;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-size: 39px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+
+
+/* KKR Profile page */
+.headername div.profile2{
+	color: #868484;
+}
+
+.profile2 ul {
+	background: #272727;
+}
+
+.profile2 ul li:nth-child(2) a {
+	color: #868484;
+}
+
+.ppkkrj {
+	margin-top: 57px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	text-align: center;
+
+	color: #CE1212;
+}
+
+.ppkkrjline {
+	width: 218.01px;
+	margin: auto;
+	height: 0px;
+	border: 3px solid #CE1212;
+}
+
+.vmkkrj {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+	text-align: center;
+
+	color: #CE1212;
+}
+
+.vmkkrline {
+	width: 218.01px;
+	height: 0px;
+	margin: auto;
+
+	border: 3px solid #CE1212;
+}
+
+.visikkr {
+	display: flex;
+	position: absolute;
+	top: 200px;
+	left: 42%;
+	border: 3px solid #CE1212;
+	width: 48%;
+	height: 300px;
+}
+
+.txtvisikkr {
+	height: 150px;
+	width: 400px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 4%;
+}
+
+.txtvisikkr h1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 46px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.txtvisikkr p {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: center;
+	
+	color: #000000;
+}
+
+.visikkr img {
+	margin-top: 240px;
+	width: 12%;
+	height: 55px;
+}
+
+.misikkr {
+	display: flex;
+	position: absolute;
+	top: 660px;
+	right: 42%;
+	border: 3px solid #CE1212;
+	width: 48%;
+	height: 300px;
+}
+
+.misikkr img {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin-top: 240px;
+	width: 12%;
+	height: 55px;
+}
+
+.jtntkkr {
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 150px;
+	text-align: center;
+	font-family: 'Alegreya';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	color: #CE1212;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.jtntkkr h1 {
+	color: #CE1212;
+}
+
+.linetntkkr {
+	width: 0px;
+	height: 100%;
+	border: 3px solid #CE1212;
+}
+
+.ltntkkr {
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 70%;
+	height: 100%;
+	overflow: auto;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 44px;
+
+	color: #000000;
+}
+
+.navbarinekkr {
+	margin-top: 150px;
+	width: 100%px;
+	height: 50px;
+	padding-left: 40px;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 53px;
+
+	color: #FFFFFF;
+
+	background: #CE1212;
+}
+
+.jkinekkr h2 {
+	font-weight: bold;
+	text-decoration: underline #CE1212;
+}
+
+.eventinekkr h2 {
+	font-weight: bold;
+	text-decoration: underline #CE1212;
+	margin-bottom: 40px;
+}
+
+.jkinekkr {
+	width: 100%;
+	margin-top: 50px;
+	padding-left: 40px;
+
+	font-family: Arial;
+}
+
+.eventinekkr {
+	width: 100%;
+	margin-top: 100px;
+	padding-left: 40px;
+}
+
+.imgine-kkr {
+	width: 440px;
+	height: 401px;
+	background-image: url();
+	background-size: cover;
+	background-position: 0 -40px;
+	float: right;
+}
+
+.swiper-container-kkr {
+	background-color: #FF8080;
+	width: 100%;
+	height: max-content;
+	display: flex;
+	margin-top: 100px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.swiper-container-kkr .swiper-title h1 {
+	color: #CE1212;
+}
+
+.gallery-swiper-kkr {
+	margin-top: 20px;
+	width: 100%;
+	height: 550px;
+	box-sizing: border-box;
+}
+
+.gallery-swiper-kkr .swiper-wrapper .swiper-slide {
+	border: 3px solid #CE1212;
+}
+
+
+/* Pramuka Profile page */
+.headername div.profile3{
+	color: #868484;
+}
+
+.profile3 ul {
+	background: #272727;
+}
+
+.profile3 ul li:nth-child(3) a {
+	color: #868484;
+}
+
+.praimage img {
+	border: 3px solid #272727; 
+	width: 100%;
+	max-height: 600px;
+}
+
+.pppraj {
+	margin-top: 57px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	text-align: center;
+
+	color: #865439;
+}
+
+.ppprajline {
+	width: 218.01px;
+	margin: auto;
+	height: 0px;
+	border: 3px solid #865439;
+}
+
+.vmpraj {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+	text-align: center;
+
+	color: #865439;
+}
+
+.vmpraline {
+	width: 218.01px;
+	height: 0px;
+	margin: auto;
+
+	border: 3px solid #865439;
+}
+
+.visipra {
+	display: flex;
+	position: absolute;
+	top: 200px;
+	left: 42%;
+	border: 3px solid #865439;
+	width: 48%;
+	height: 300px;
+}
+
+.txtvisipks {
+	height: 150px;
+	width: 400px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 4%;
+}
+
+.txtvisipks h1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 39px;
+	line-height: 46px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.txtvisipks p {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	
+	color: #000000;
+}
+
+.visipra img {
+	margin-top: 240px;
+	width: 12%;
+	height: 55px;
+}
+
+.misipra {
+	display: flex;
+	position: absolute;
+	top: 660px;
+	right: 42%;
+	border: 3px solid #865439;
+	width: 48%;
+	height: 300px;
+}
+
+.misipra img {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin-top: 240px;
+	width: 12%;
+	height: 55px;
+}
+
+.jtntpra {
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 150px;
+	text-align: center;
+	font-family: 'Alegreya';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	color: #865439;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.jtntpra h1 {
+	color: #865439;
+}
+
+.linetntpra {
+	width: 0px;
+	height: 100%;
+	border: 3px solid #865439;
+}
+
+.ltntpra {
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 70%;
+	height: 100%;
+	overflow: auto;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 44px;
+
+	color: #000000;
+}
+
+.navbarinepra {
+	margin-top: 150px;
+	width: 100%px;
+	height: 50px;
+	padding-left: 40px;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 53px;
+
+	color: #FFFFFF;
+
+	background: #865439;
+}
+
+.jkinepra h2 {
+	font-weight: bold;
+	text-decoration: underline #865439;
+}
+
+.eventinepra h2 {
+	font-weight: bold;
+	text-decoration: underline #865439;
+	margin-bottom: 40px;
+}
+
+.jkinepra {
+	width: 100%;
+	margin-top: 50px;
+	padding-left: 40px;
+
+	font-family: Arial;
+}
+
+.eventinepra {
+	width: 100%;
+	margin-top: 100px;
+	padding-left: 40px;
+}
+
+.imgine-pra {
+	width: 440px;
+	height: 401px;
+	background-image: url(Galeri/pramuka6.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -100px -40px;
+	float: right;
+}
+
+.swiper-container-pra {
+	background-color: #865439;
+	width: 100%;
+	height: max-content;
+	display: flex;
+	margin-top: 100px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.swiper-container-pra .swiper-title h1 {
+	color: #000000;
+}
+
+.gallery-swiper-pra {
+	margin-top: 20px;
+	width: 100%;
+	height: 550px;
+	box-sizing: border-box;
+}
+
+.gallery-swiper-pra .swiper-wrapper .swiper-slide {
+	border: 3px solid #000000;
+}
+
+
+/* Prestasi PKS page */
+
+.headername div.prestasi2{
+	color: #868484;
+}
+
+.prestasi2 ul {
+	background: #272727;
+}
+
+.prestasi2 ul li:first-child a {
+	color: #868484;
+}
+
+.prespksj {
+	margin-top: 57px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	text-align: center;
+
+	color: #0F4C75;
+}
+
+.prespksjline {
+	width: 218.01px;
+	margin: 20px auto;
+	height: 0px;
+	border: 3px solid #0F4C75;
+}
+
+.prespksj1 h5 {
+	width: fit-content;
+	line-height: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.prestasipks {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 400px;
+	width: 100%;
+}
+
+.prestasipks img {
+	position: absolute;
+	width: 35%;
+	height: 300px;
+	left: 10%;
+	z-index: 2;
+}
+
+.bluediv {
+	position: absolute;
+	top: 100px;
+	width: 35%;
+	height: 500px;
+	box-sizing: border-box;
+
+	background: #83DEDE;
+}
+
+.bluediv h4 {
+	margin-top: 220px;
+	margin-left: 30%;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 47px;
+
+	color: #000000;
+}
+
+.prestasipksline {
+	position: relative;
+	top: 450px;
+	margin: auto;
+	width: 70%;
+	height: 0px;
+	z-index: 2;
+	border: 8px solid #0F4C75;
+}
+
+.txtprespks {
+	max-width: 550px;
+	margin-left: 48%;
+	margin-top: 150px;
+}
+
+.txtprespks h5 {
+	font-family: Arial;
+	text-align: left;
+	color: #000000;
+}
+
+.txtprespksline {
+	width: 293px;
+	height: 0px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	border: 2px solid #0F4C75;
+}
+
+.txtprespks p {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.juaraprespks {
+	display: flex;
+	width: 185px;
+	height: 29px;
+	background: #83DEDE;
+}
+
+.juaraprespks h6 {
+	margin: auto;
+}
+
+
+/* Prestasi KKR page */
+
+.headername div.prestasi3{
+	color: #868484;
+}
+
+.prestasi3 ul {
+	background: #272727;
+}
+
+.prestasi3 ul li:nth-child(2) a {
+	color: #868484;
+}
+
+.preskkrj {
+	margin-top: 57px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	text-align: center;
+
+	color: #CE1212;
+}
+
+.preskkrjline {
+	width: 218.01px;
+	margin: 20px auto;
+	height: 0px;
+	border: 3px solid #CE1212;
+}
+
+.preskkrj1 h5 {
+	width: fit-content;
+	line-height: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.prestasikkr {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 400px;
+	width: 100%;
+}
+
+.prestasikkr img {
+	position: absolute;
+	width: 35%;
+	height: 300px;
+	left: 10%;
+	z-index: 2;
+}
+
+.reddiv {
+	position: absolute;
+	top: 100px;
+	width: 35%;
+	height: 500px;
+	box-sizing: border-box;
+
+	background: #FF8080;
+}
+
+.reddiv h4 {
+	margin-top: 220px;
+	margin-left: 30%;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 47px;
+
+	color: #000000;
+}
+
+.prestasikkrline {
+	position: relative;
+	top: 450px;
+	margin: auto;
+	width: 70%;
+	height: 0px;
+	z-index: 2;
+	border: 8px solid #89002F;
+}
+
+.txtpreskkr {
+	max-width: 550px;
+	margin-left: 48%;
+	margin-top: 150px;
+}
+
+.txtpreskkr h5 {
+	font-family: Arial;
+	text-align: left;
+	color: #000000;
+}
+
+.txtpreskkrline {
+	width: 293px;
+	height: 0px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	border: 2px solid #89002F;
+}
+
+.txtpreskkr p {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.juarapreskkr {
+	display: flex;
+	width: 185px;
+	height: 29px;
+	background: #FF8080;
+}
+
+.juarapreskkr h6 {
+	margin: auto;
+}
+
+
+
+/* Prestasi Pramuka page */
+
+.headername div.prestasi4{
+	color: #868484;
+}
+
+.prestasi4 ul {
+	background: #272727;
+}
+
+.prestasi4 ul li:nth-child(3) a {
+	color: #868484;
+}
+
+.prespraj {
+	margin-top: 57px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 82px;
+
+	text-align: center;
+
+	color: #865439;
+}
+
+.presprajline {
+	width: 218.01px;
+	margin: 20px auto;
+	height: 0px;
+	border: 3px solid #865439;
+}
+
+.prespraj1 h5 {
+	width: fit-content;
+	line-height: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.prestasipra {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 400px;
+	width: 100%;
+}
+
+.prestasipra img {
+	position: absolute;
+	width: 35%;
+	height: 300px;
+	left: 10%;
+	z-index: 2;
+}
+
+.browndiv {
+	position: absolute;
+	top: 100px;
+	width: 35%;
+	height: 500px;
+	box-sizing: border-box;
+
+	background: #E0A586;
+}
+
+.browndiv h4 {
+	margin-top: 220px;
+	margin-left: 30%;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 47px;
+
+	color: #000000;
+}
+
+.prestasipraline {
+	position: relative;
+	top: 450px;
+	margin: auto;
+	width: 70%;
+	height: 0px;
+	z-index: 2;
+	border: 8px solid #865439;
+}
+
+.txtprespra {
+	max-width: 550px;
+	margin-left: 48%;
+	margin-top: 150px;
+}
+
+.txtprespra h5 {
+	font-family: Arial;
+	text-align: left;
+	color: #000000;
+}
+
+.txtprespraline {
+	width: 293px;
+	height: 0px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	border: 2px solid #865439;
+}
+
+.txtprespra p {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.juaraprespra {
+	display: flex;
+	width: 185px;
+	height: 29px;
+	background: #E0A586;
+}
+
+.juaraprespra h6 {
+	margin: auto;
+}
+
+
+/* Pembibing PKS page */
+
+.headername div.pembimbing2{
+	color: #868484;
+}
+
+.pembimbing2 ul {
+	background: #272727;
+}
+
+.pembimbing2 ul li:first-child a {
+	color: #868484;
+}
+
+.backpembpks {
+	display: flex;
+	width: 100%;
+	height: 450px;
+	padding: 100px 200px;
+
+	background: #5F96BB;
+}
+
+.imgpemb img {
+	width: 300px;
+	height: 300px;
+	border-radius: 200px;
+}
+
+.txtpembpks {
+	margin: auto;
+}
+
+.txtpembpks h1 {
+	font-family: 'Almendra SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 83px;
+}
+
+.txtpembpks h3 {
+	font-family: 'ABeeZee';
+	font-style: normal;
+	text-align: center;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 41px;
+}
+
+.contpembpks {
+	width: max-content;
+	margin: 50px auto;
+}
+
+.contpembpks h3 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+}
+
+.contpembpks h5 {
+	color: #000000;
+}
+
+/* Pembimbing KKR page */
+
+.headername div.pembimbing3{
+	color: #868484;
+}
+
+.pembimbing3 ul {
+	background: #272727;
+}
+
+.pembimbing3 ul li:nth-child(2) a {
+	color: #868484;
+}
+
+.backpembkkr {
+	display: flex;
+	width: 100%;
+	height: 450px;
+	padding: 100px 200px;
+
+	background: #FF8080;
+}
+
+.imgpembkkr {
+	width: 300px;
+	height: 300px;
+	
+	background: url(Photo/person.png);
+	background-repeat: no-repeat;
+	border-radius: 200px;
+}
+
+.txtpembkkr {
+	margin: auto;
+}
+
+.txtpembkkr h1 {
+	font-family: 'Almendra SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 83px;
+	color: #CE1212;
+}
+
+.txtpembkkr h3 {
+	font-family: 'ABeeZee';
+	font-style: normal;
+	text-align: center;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 41px;
+}
+
+.contpembkkr {
+	width: max-content;
+	margin: 50px auto;
+}
+
+.contpembkkr h3 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+}
+
+.contpembkkr h5 {
+	color: #000000;
+}
+
+
+/* Pembimbing Pramuka page */
+
+.headername div.pembimbing4{
+	color: #868484;
+}
+
+.pembimbing4 ul {
+	background: #272727;
+}
+
+.pembimbing4 ul li:nth-child(3) a {
+	color: #868484;
+}
+
+.backpembpra {
+	display: flex;
+	width: 100%;
+	height: 450px;
+	padding: 100px 200px;
+
+	background: #E0A586;
+}
+
+.imgpembpra {
+	width: 300px;
+	height: 300px;
+	
+	background: url(Photo/person.png);
+	background-repeat: no-repeat;
+	border-radius: 200px;
+}
+
+.txtpembpra {
+	margin: auto;
+}
+
+.txtpembpra h1 {
+	color: #000000;
+	font-family: 'Almendra SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 83px;
+}
+
+.txtpembpra h3 {
+	font-family: 'ABeeZee';
+	font-style: normal;
+	text-align: center;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 41px;
+}
+
+.contpembpra {
+	width: max-content;
+	margin: 50px auto;
+}
+
+.contpembpra h3 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+}
+
+.contpembpra h5 {
+	color: #000000;
+}
+
+
+/* Galeri page */
+
+.headername div.galeripage1 a {
+	color: #868484;
+}
+
+.homeimage1 {
+	margin-bottom: 50px;
+}
+
+.homeimage1 img {
+	margin-top: 25px;
+	width: 100%;
+	border-bottom: 3px solid #272727;
+}
+
+h1 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 90px;
+
+	text-align: center;
+
+	color: #112D4E;
+}
+
+.jgline {
+	border: 4px solid #FCE38A;
+	margin: 10px auto;
+	width: 218.01px;
+	height: 0px;
+}
+
+.container-gallery-pks {
+	display: flex;
+	width: 90%;
+	border: 5px solid #0F4C75;
+	margin: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+.container-gallery-kkr {
+	display: flex;
+	width: 90%;
+	border: 5px solid #CE1212;
+	margin: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+.container-gallery-pramuka {
+	display: flex;
+	width: 90%;
+	border: 5px solid #865439;
+	margin: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+.container-gallery-pks img {
+	max-width: 360px;
+	max-height: 210px;
+	margin: 10px;
+}
+
+.container-gallery-kkr img {
+	max-width: 360px;
+	max-height: 210px;
+	margin: 10px;
+}
+
+.container-gallery-pramuka img {
+	max-width: 360px;
+	max-height: 210px;
+	margin: 10px;
+}
+
+
+
+/* Media Query */
+
+
+
+/* Header */
+@media ( max-width: 1180px ) {
+	.header {
+		width: 100%;
+		height: 50px;
+		padding: 8px 7%;
+	}
+
+	.logo {
+		margin-top: 1%;
+		width: 120px;
+		height: 30px;
+	}
+
+	.headername {
+		width: 340px;
+	}
+
+	.headername div a {
+		font-weight: 700;
+		font-size: 10px;
+		line-height: 18px;
+		margin-right: 20px;
+	}
+}
+
+@media ( max-width: 590px ) {
+	.header {
+		width: 100%;
+		height: 35px;
+		padding: 8px 7%;
+	}
+
+	.headername {
+		width: 220px;
+	}
+
+	.logo {
+		margin-top: 0.2px;
+		width: 80px;
+		height: 20px;
+	}
+
+	.nav-link {
+		height: 11px;
+	}
+
+	.headername div a {
+		font-weight: 700;
+		font-size: 5px;
+		line-height: 18px;
+		margin-right: 20px;
+	}
+}
+
+
+/* Footer */
+@media ( max-width: 1000px ) {
+	.footer {
+		display: block;
+		margin-top: 50px;
+		width: 100%;
+		height: 580px;
+		padding-top: 79px;
+		padding-left: 50px;
+		padding-right: 50px;
+		justify-content: none;
+	}
+
+	.kontak {
+		display: block;
+		margin-top: 50px;
+		width: 330px;
+		z-index: 9;
+		line-height: 10px;
+	}
+
+	.footerbottom p {
+		margin: auto;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 13px;
+	}
+}
+
+
+/* Landingpage Prestasi */
+@media ( max-width: 1229px ) {
+	.possdiv {
+		height: 250px;
+		padding: 70px;
+	}
+
+	.PKSpp {
+		padding: 5px;
+		width: 160px;
+		height: 140px;
+		margin-right: 50px;
+	}
+	
+	.KKRpp {
+		padding: 5px;
+		width: 160px;
+		height: 140px;
+		margin-right: 50px;
+	}
+	
+	.PRApp {
+		padding: 5px;
+		width: 160px;
+		height: 140px;
+	}
+
+	.pkspres {
+		font-weight: 275;
+		font-size: 10px;
+		margin-bottom: 70px;
+	}
+	
+	.pkspresj {
+		margin-top: 0px;
+		font-weight: 300;
+		font-size: 10px;
+		line-height: 1px;
+	}
+	
+	.pkspresdesk {
+		margin-top: 0px;
+		font-weight: 300;
+		font-size: 7px;
+		line-height: 7px;
+	}
+	
+	.kkrpres {
+		font-weight: 275;
+		font-size: 10px;
+		margin-bottom: 60px;
+	}
+	
+	.kkrpresj {
+		margin-top: 0px;
+		font-weight: 300;
+		font-size: 10px;
+		line-height: 10px;
+	}
+	
+	.kkrpresdesk {
+		margin-top: 0px;
+		font-weight: 300;
+		font-size: 7px;
+		line-height: 7px;
+	}
+	
+	.pramukapres {
+		font-weight: 275;
+		font-size: 10px;
+		margin-bottom: 60px;
+	}
+	
+	.pramukapresj {
+		margin-top: 0px;
+		font-weight: 300;
+		font-size: 10px;
+		line-height: 10px;
+	}
+	
+	.pramukapresdesk {
+		margin-top: 0px;
+		font-weight: 300;
+		font-size: 7px;
+		line-height: 7px;
+	}
+}
+
+@media ( max-width: 727px ) {
+	.judulprestasi {
+		margin-top: 30px;
+	}
+	
+	.judulprestasi1 {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 40px;
+	}
+	
+	.judulprestasiimg {
+		border: 2px solid #FCE38A;
+		margin: auto;
+		width: 218.01px;
+		height: 0px;
+	}
+	
+	.judulprestasi2 {
+		margin-top: 10px;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 24px;
+	}
+
+	.possdiv {
+		height: 70px;
+		padding: 60px;
+		margin-top: 20px;
+	}
+	
+	.PKSpp {
+		padding: 3px;
+		width: 80px;
+		height: 70px;
+		margin-right: 30px;
+	}
+	
+	.KKRpp {
+		padding: 3px;
+		width: 80px;
+		height: 70px;
+		margin-right: 30px;
+	}
+	
+	.PRApp {
+		padding: 3px;
+		width: 80px;
+		height: 70px;
+	}
+
+	.pkspres {
+		font-weight: 275;
+		font-size: 6px;
+		margin-bottom: 30px;
+	}
+	
+	.pkspresj {
+		font-weight: 300;
+		font-size: 5px;
+		margin: 7px;
+		line-height: 5px;
+	}
+	
+	.pkspresdesk {
+		margin-top: 0px;
+		font-weight: 100;
+		font-size: 3px;
+		line-height: 3px;
+	}
+	
+	.kkrpres {
+		font-weight: 275;
+		font-size: 6px;
+		margin-bottom: 30px;
+	}
+	
+	.kkrpresj {
+		font-weight: 300;
+		font-size: 5px;
+		margin: 7px;
+		line-height: 5px;
+	}
+	
+	.kkrpresdesk {
+		margin-top: 0px;
+		font-weight: 100;
+		font-size: 3px;
+		line-height: 3px;
+	}
+	
+	.pramukapres {
+		font-weight: 275;
+		font-size: 6px;
+		margin-bottom: 30px;
+	}
+	
+	.pramukapresj {
+		font-weight: 300;
+		font-size: 5px;
+		margin: 7px;
+		line-height: 5px;
+	}
+	
+	.pramukapresdesk {
+		margin-top: 0px;
+		font-weight: 100;
+		font-size: 3px;
+		line-height: 3px;
+	}
+}
+
+
+/* Landingpage Profile */
+@media ( max-width: 1164px ) {
+	.PKSprofile {
+		padding-top: 300px;
+		width: 242px;
+		height: 374px;
+		margin-top: 46px;
+		margin-right: 20px;
+	}
+	
+	.KKRprofile {
+		padding-top: 300px;
+		width: 242px;
+		height: 374px;
+		margin-right: 20px;
+	}
+	
+	.PRAprofile {
+		padding-top: 300px;
+		width: 242px;
+		height: 374px;
+	}
+}
+
+@media ( max-width: 800px ) {
+	.backprofile {
+		height: 600px;
+	}
+
+	.PKSprofile {
+		padding-top: 210px;
+		width: 142px;
+		height: 274px;
+		margin-top: 46px;
+		margin-right: 10px;
+	}
+	
+	.KKRprofile {
+		padding-top: 210px;
+		width: 142px;
+		height: 274px;
+		margin-right: 10px;
+	}
+	
+	.PRAprofile {
+		padding-top: 210px;
+		width: 142px;
+		height: 274px;
+	}
+
+	.profilepp {
+		width: 1150px;
+		height: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 10px;
+	}
+}
+
+@media ( max-width: 490px ) {
+	.backprofile {
+		margin-top: 50px;
+		height: 330px;
+	}
+
+	.judulprofile1 {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 40px;
+		padding-top: 20px;
+	}
+	
+	.judulprofileimg {
+		border: 2px solid #FCE38A;
+		margin: auto;
+		width: 218.01px;
+		height: 0px;
+	}
+	
+	.judulprofile2 {
+		margin-top: 10px;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 18px;
+	}
+
+	.PKSprofile {
+		padding-top: 130px;
+		width: 100px;
+		height: 150px;
+		margin-top: 20px;
+		margin-right: 10px;
+
+		background-image: url(photo/logo-pks.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 60px;
+	}
+	
+	.KKRprofile {
+		padding-top: 130px;
+		width: 100px;
+		height: 150px;
+		margin-right: 10px;
+
+		background-image: url(photo/logo-kkr.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 70px;
+	}
+	
+	.PRAprofile {
+		padding-top: 130px;
+		width: 100px;
+		height: 150px;
+
+		background-image: url(photo/logo-pramuka.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 70px;
+	}
+
+	.profilepp {
+		width: 1150px;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 10px;
+	}
+
+	.PKSpp {
+		background-image: url(photo/logo-trophy.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+
+	.KKRpp {
+		background-image: url(photo/logo-trophy.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+
+	.PRApp {
+		background-image: url(photo/logo-trophy.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 40px;
+	}
+}
+
+
+/* Landingpage Galeri */
+@media ( max-width: 450px ) {
+	.backgaleri {
+		margin-top: 20px;
+	}
+	.judulgaleri1 {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 40px;
+		padding-top: 30px;
+	}
+	
+	.judulgaleriimg {
+		border: 2px solid #FCE38A;
+		margin: auto;
+		width: 218.01px;
+		height: 0px;
+	}
+	
+	.judulgaleri2 {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 24px;
+	}
+}
